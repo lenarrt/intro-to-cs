@@ -1,0 +1,106 @@
+.banner{
+    width: 80%;
+    height: 70%;
+    top: 25%;
+    left: 80px;
+    position: absolute;
+    color: rgb(0, 17, 248);
+  }
+  .app-text{
+    width: 50%;
+    float: left;
+  }
+  .app-text h1{
+    text-shadow: 5px 5px 10px #ea00ff;
+    font-size: 43px;
+    width: 640px;
+    position: relative;
+    margin-left: 40px;
+    color: rgb(255, 255, 255);
+  }
+  .app-text p{
+    text-shadow: 5px 5px 10px rgb(99, 8, 102);
+    font-size: 25px;
+    width: 650px;
+    margin: 30px 0 30px 40px;
+    line-height: 25px;
+    color: #ffffff;
+  }
+  .app-picture{
+    width: 50%;
+    float: right;
+  }
+  .app-picture img{
+    width: 100%;
+    margin-top: -20px;
+    padding-left: 50px;
+  }
+  .play-btn{
+    margin-left: 40px;
+    display: inline-flex;
+  }
+  .play-btn-inner{
+    height: 50px;
+    width: 50px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at top left,#fd00da,#19d7f8);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    text-align: center;
+  
+  }
+  .play-btn-inner .fa{
+    padding: 18px 0;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  small{
+    margin: auto 20px;
+    cursor: pointer;
+    font-size:12px;
+    color: #19dafa;
+    letter-spacing: 3px;
+  }
+  .quick-link{
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    height: 20%;
+    background: linear-gradient(to right,#dd1bf63d,#19d7f94f );
+  }
+  .quick-link ul{
+    display: inline-flex;
+    margin: 30px auto;
+    text-align: center;
+  }
+  .quick-link ul li{
+  list-style:none ;
+  margin: 0 50px;
+  cursor: pointer;
+  }
+  .quick-link ul li .fa{
+    font-size: 25px;
+    color: #fff;
+  }
+  .quick-link ul li p{
+    margin-top: 15px;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+  }
+  body, html {
+    height: 100%;
+  }
+  .bg {
+    /* The image used */
+    background-image: url(s.jpg);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
